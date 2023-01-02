@@ -1,0 +1,16 @@
+.navItem {
+    padding-right: 30px;
+    color: black;
+
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.navContainer {
+    margin: left;
+    padding: 30px 10% 20px 10%;
+}
+
+.white {
+    color: white;
+}
