@@ -1,10 +1,15 @@
 import "./coffee-beans.css"
-import bean from "./coffee-beans.png"
 
-const Beans = () => {
+const Beans = ({bean}) => {
+    const {color, src, alt} = bean;
+
+    let classNames = "beansLine";
+    if(color === "black") {
+        classNames = "black beansLine";
+    }
     return (
-        <div className="beansLine">
-            <img className="bean" src={bean}  alt="Logo of beans"/>
+        <div className={classNames}>
+            <img className="bean" src={src}  alt={alt}/>
         </div> 
     )
 }

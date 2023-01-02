@@ -7,10 +7,14 @@
 }
 
 .navContainer {
-    margin: left;
     padding: 30px 10% 20px 10%;
 }
 
 .white {
     color: white;
+}
+
+.beanLogo {
+    width: 35px;
+    height: 35px;
 }

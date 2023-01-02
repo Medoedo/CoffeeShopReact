@@ -1,5 +1,5 @@
 .header {
-    height: 80vh;
+    height: 650px;
 
     background: url("./Main-bg.jpg");
     background-size: cover;
@@ -7,19 +7,21 @@
     color: white;
 }
 
-h1 {
+.mainHeader {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin-bottom: 1.2rem;
 }
 
-h2 {
+.subHeader {
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 1.8rem 0 1.2rem 0;
     line-height: 48px;
 }
 
 .wrapper {
+    margin: 5% 0 4%;
     text-align: center;
+
 }
 
 .wrapper button {
