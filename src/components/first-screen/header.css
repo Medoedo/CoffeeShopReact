@@ -1,5 +1,5 @@
 .header {
-    height: 650px;
+    height: 640px;
 
     background: url("./Main-bg.jpg");
     background-size: cover;
@@ -21,7 +21,6 @@
 .wrapper {
     margin: 5% 0 4%;
     text-align: center;
-
 }
 
 .wrapper button {
@@ -41,4 +40,11 @@
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
 
     cursor: pointer;
+
+    transition: all .3s;
+}
+
+.wrapper button:hover {
+    background-color: white;
+    color: black;
 }

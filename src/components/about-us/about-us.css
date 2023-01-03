@@ -1,14 +1,10 @@
 .centering {
-    margin: 0 auto;
+    margin: 5rem auto 6.25rem;
     text-align: center;
     width: 40%;
 }
 
-.topic {
-    margin: 80px 0 20px;
-}
-
 .paragraphText {
     line-height: 20px;
-    margin: 40px 0 100px;
+    margin-top: 40px;
 }

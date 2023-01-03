@@ -6,6 +6,10 @@
     text-decoration: none;
 }
 
+.navItem:hover {
+    filter: drop-shadow(5px 5px 15px rgba(255, 255, 255, 1));
+}
+
 .navContainer {
     padding: 30px 10% 20px 10%;
 }

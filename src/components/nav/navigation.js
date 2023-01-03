@@ -1,9 +1,9 @@
 import "./navigation.css"
 
 const Nav = ({colorText, menuElem}) => {
-    let classNames = "navItem navText";
+    let classNames = "navItem";
     if(colorText === "white") {
-        classNames = "white navItem navText";
+        classNames = "white navItem";
     }
     const {src, alt, link} = menuElem[0];
 

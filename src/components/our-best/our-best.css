@@ -1,3 +1,11 @@
-.bestCards {
-    display: flex;
+.ourBestBg {
+    background: url("./our-best-bg.png");
+    width: 100%;
+
+    text-align: center;
+}
+
+.container {
+    height: 320px;
+    padding: 80px 0 100px;
 }
